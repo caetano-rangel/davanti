@@ -12,14 +12,18 @@ import Contato from './components/Contato'
 import Rodape from './components/Rodape'
 import Gradient from './components/Gradient'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+  AOS.init();
   return (
     <div id="site-body">
       <div className="imagem-home">
         <div className="txt-img">
-          <h1>Descubra o conceito do Luxo Imobiliario</h1>
+          <h1 data-aos= "fade-up" data-aos-duration="2000">Descubra o conceito do Luxo Imobiliario</h1>
           <br></br>
-          <h2>em Arraial D'Ajuda</h2>
+          <h2 data-aos= "fade-up" data-aos-duration="2000">em Arraial D'Ajuda</h2>
         </div>
       </div>
       <Gradient />

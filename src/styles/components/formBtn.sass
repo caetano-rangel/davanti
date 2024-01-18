@@ -11,16 +11,23 @@
         font-size: 2.5rem
         background-color: variables.$color-btn
         border-radius: 4px
-        border-width: 4px
-        border-color: #ccc
+        border: none
         width: 70%
         height: 4rem
         margin-top: 2rem
         margin-bottom: 2rem
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+        transition: transform 0.3s ease-in-out
 
-    :hover
-        background-color: #102b38
+    .btn:hover
+        background-color: #0d3c53
         cursor: pointer
+        transform: translateY(-5px)
+        box-shadow: 0 9px 12px rgba(0, 0, 0, 0.4)
+
+    .btn:active
+        transform: translateY(0)
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
     .nome
         font-size: 1.4rem
