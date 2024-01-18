@@ -1,0 +1,42 @@
+@use '../variables'
+
+#site-body
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+    .imagem-home
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(/src/imagens/home.jpeg)
+        background-repeat: no-repeat
+        background-size: cover
+        height: 850px
+        width: 100%
+        display: flex
+        justify-content: center
+        
+
+        .txt-img
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+            h1
+                color: #ffffff
+                font-family: 'Times New Roman'
+                letter-spacing: .5rem
+                text-transform: uppercase
+                font-size: 1.2rem
+                text-align: center
+
+            h2
+                color: #ffffff
+                margin-top: 3rem
+                font-family: 'Times New Roman'
+                letter-spacing: .5rem
+                text-transform: uppercase
+                font-size: 1rem
+                text-align: center
+        

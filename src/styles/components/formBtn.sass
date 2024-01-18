@@ -1,0 +1,30 @@
+@use '../variables'
+@use '../mixins'
+
+#form-btn
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    
+    .btn
+        font-size: 2.5rem
+        background-color: variables.$color-btn
+        border-radius: 4px
+        border-width: 4px
+        border-color: #ccc
+        width: 70%
+        height: 4rem
+        margin-top: 2rem
+        margin-bottom: 2rem
+
+    :hover
+        background-color: #102b38
+        cursor: pointer
+
+    .nome
+        font-size: 1.4rem
+        font-family: variables.$font-stack
+        letter-spacing: .1rem
+        text-transform: uppercase
+        color: #fff
