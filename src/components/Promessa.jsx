@@ -1,9 +1,13 @@
 import '../styles/components/promessa.sass'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Promessa() {
+    AOS.init();
     return (
         <div id="promessa-box">
-            <div className="txt-promessa">
+            <div data-aos= "fade-up" data-aos-duration="2000" className="txt-promessa">
                 <p>Explore a exclusividade à beira-mar com a expertise 
                     da RE/MAX Davanti, a principal imobiliária do Extremo 
                     Sul da Bahia. Permita-nos encontrar seu imóvel de alto 
