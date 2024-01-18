@@ -11,7 +11,7 @@ import image4 from '../imagens/patricia.jpeg'
 function ProvaSocial() {
   AOS.init();
     return (
-      <div id="container">
+      <div id="container-prova-social">
         <div data-aos= "fade-up" data-aos-duration="2000" class="img-container">
           <img src={image1}></img>
         </div>
