@@ -2,7 +2,7 @@ import '../styles/components/rodape.sass'
 
 function Rodape() {
     return (
-      <p className='c'>©</p>
+      <p className='c'>© REMAX DAVANTI</p>
     )
   }
 

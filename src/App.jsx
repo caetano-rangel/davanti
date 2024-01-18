@@ -1,3 +1,4 @@
+import React, { useRef } from 'react';
 import './styles/components/app.sass'
 import FormBtn from './components/FormBtn'
 import Imoveis from './components/Imoveis'
@@ -16,6 +17,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
+  const formularioRef = useRef();
+
+  const scrollToFormulario = () => {
+    formularioRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   AOS.init();
   return (
     <div id="site-body">
@@ -27,16 +34,18 @@ function App() {
         </div>
       </div>
       <Gradient />
-      <FormBtn />
+      <FormBtn scrollToFormulario={scrollToFormulario}/>
       <Imoveis />
       {/* <Grafico /> */}
       <Video />
       <Promessa />
       {/* <Corretores /> */}
       <ProvaSocial />
-      <FormBtn />
+      <FormBtn scrollToFormulario={scrollToFormulario}/>
       <QuemSomos />
-      <Formulario />
+      <div className="form" ref={formularioRef}>
+        <Formulario />
+      </div>
       <Contato />
       <Rodape />
     </div>
