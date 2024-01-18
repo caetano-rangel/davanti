@@ -1,19 +1,24 @@
 import '../styles/components/prova.sass'
 
+import image1 from '../imagens/patricia.jpeg'
+import image2 from '../imagens/patricia.jpeg'
+import image3 from '../imagens/patricia.jpeg'
+import image4 from '../imagens/patricia.jpeg'
+
 function ProvaSocial() {
     return (
       <div id="container">
         <div class="img-container">
-          <img src="/src/imagens/patricia.jpeg"></img>
+          <img src={image1}></img>
         </div>
         <div class="img-container">
-          <img src="/src/imagens/patricia.jpeg"></img>
+          <img src={image2}></img>
         </div>
         <div class="img-container">
-          <img src="/src/imagens/patricia.jpeg"></img>
+          <img src={image3}></img>
         </div>
         <div class="img-container">
-          <img src="/src/imagens/patricia.jpeg"></img>
+          <img src={image4}></img>
         </div>
       </div>
     )

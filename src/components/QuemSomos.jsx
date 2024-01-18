@@ -1,10 +1,12 @@
 import '../styles/components/quemSomos.sass'
 
+import image1 from '../imagens/equipe.jpeg'
+
 function QuemSomos() {
     return (
       <div id="somos-box">
         <p className='txt'>quem somos</p>
-        <img src="src/imagens/equipe.jpeg" className='img-quem'/>
+        <img src={image1} className='img-quem'/>
       </div>
     )
   }
