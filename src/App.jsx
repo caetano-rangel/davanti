@@ -39,9 +39,9 @@ function App() {
       {/* <Grafico /> */}
       <Video />
       <Promessa />
+      <FormBtn scrollToFormulario={scrollToFormulario}/>
       {/* <Corretores /> */}
       <ProvaSocial />
-      <FormBtn scrollToFormulario={scrollToFormulario}/>
       <QuemSomos />
       <div className="form" ref={formularioRef}>
         <Formulario />

@@ -11,6 +11,7 @@ function QuemSomos() {
       <div id="somos-box">
         <p data-aos= "fade-up" data-aos-duration="2000" className='txt'>quem somos</p>
         <img data-aos= "fade-up" data-aos-duration="2000" src={image1} className='img-quem'/>
+        <p className='txt'>texto falando sobre a remax e muitas outras coisas mais.</p>
       </div>
     )
   }
