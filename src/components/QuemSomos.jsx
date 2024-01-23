@@ -9,9 +9,12 @@ function QuemSomos() {
   AOS.init();
     return (
       <div id="somos-box">
-        <p data-aos= "fade-up" data-aos-duration="2000" className='txt'>quem somos</p>
+        <p data-aos= "fade-up" data-aos-duration="2000" className='txt1'>Quem somos</p>
         <img data-aos= "fade-up" data-aos-duration="2000" src={image1} className='img-quem'/>
-        <p className='txt'>texto falando sobre a remax e muitas outras coisas mais.</p>
+        <p data-aos= "fade-up" data-aos-duration="2000" className='txt2'>A equipe da Remax Davanti é um grupo dedicado de profissionais imobiliários que se destacam pela 
+        sua paixão, experiência e comprometimento. <br></br><br></br><br></br> A integridade, transparência e o foco na 
+        excelência são os pilares que impulsionam a Remax Davanti a oferecer serviços imobiliários excepcionais, 
+        indo além das expectativas para criar relações sólidas e duradouras com os clientes.</p>
       </div>
     )
   }

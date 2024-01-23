@@ -12,9 +12,13 @@ import Formulario from './components/Formulario'
 import Contato from './components/Contato'
 import Rodape from './components/Rodape'
 import Gradient from './components/Gradient'
+import Titulo from './components/Titulo';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+import logo from '/src/imagens/logo.png'
+
 
 function App() {
   const formularioRef = useRef();
@@ -27,6 +31,7 @@ function App() {
   return (
     <div id="site-body">
       <div className="imagem-home">
+      <img src={logo} className='logo'/>
         <div className="txt-img">
           <h1 data-aos= "fade-up" data-aos-duration="2000">Descubra o conceito do Luxo Imobiliario</h1>
           <br></br>
@@ -34,8 +39,9 @@ function App() {
         </div>
       </div>
       <Gradient />
-      <FormBtn scrollToFormulario={scrollToFormulario}/>
+      <Titulo />
       <Imoveis />
+      <FormBtn scrollToFormulario={scrollToFormulario}/>
       {/* <Grafico /> */}
       <Video />
       <Promessa />

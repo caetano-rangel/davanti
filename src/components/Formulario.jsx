@@ -35,7 +35,7 @@ function Formulario() {
   AOS.init();
     return (
       <div data-aos= "fade-up" data-aos-duration="2000" id="container-form">
-        <h1 className='txt-form'>Formulario</h1>
+        <h1 className='txt-form'>Mande sua dúvida</h1>
         <form className='form' onSubmit={sendEmail}>
           <input 
           className="input" 
