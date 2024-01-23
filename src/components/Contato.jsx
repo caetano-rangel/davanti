@@ -12,13 +12,15 @@ function Contato() {
 
   const googleMapsLink = `https://www.google.com/maps/place/${latitude},${longitude}`;
 
+  const whatsappLink = `https://wa.me/${73998483936}`;
+
     return (
       <div id="contato-box">
         <div data-aos= "fade-up" data-aos-duration="2000" className="info">
         <AiFillPhone id="phone-icon" />
             <div>
               <h3>Telefone</h3>
-              <a className="p">(73) 99848-3936</a>
+              <a className="p" href={whatsappLink} target="_blank" rel="noopener noreferrer">(73) 99848-3936</a>
             </div>
         </div>
         <div data-aos= "fade-up" data-aos-duration="2000" className="info">
