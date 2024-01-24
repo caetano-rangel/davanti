@@ -37,6 +37,9 @@ function App() {
           <br></br>
           <h2 data-aos= "fade-up" data-aos-duration="2000">em Arraial D'Ajuda</h2>
         </div>
+        <button data-aos= "fade-up" data-aos-duration="2000" className='btn-app' onClick={scrollToFormulario}>
+          <p className="txt-btn-app">Saiba como</p>
+        </button>
       </div>
       <Gradient />
       <Titulo />

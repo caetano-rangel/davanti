@@ -53,7 +53,7 @@ function Formulario() {
           />
           <input
           className='input'
-          placeholder='digite sua mensagem'
+          placeholder='Como posso te ajudar?'
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           />

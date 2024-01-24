@@ -26,7 +26,7 @@ function Promessa() {
                     Clique agora para 
                     iniciar sua jornada em direção à residência ou 
                     terreno dos seus sonhos e viva a vida que 
-                    verdadeiramente merece."</p>
+                    verdadeiramente merece.</p>
             </div>
             {/* <img src="/src/imagens/costa.jpeg" className='img' alt="" /> */}
         </div>

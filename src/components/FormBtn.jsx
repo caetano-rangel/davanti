@@ -15,7 +15,7 @@ function FormBtn({ scrollToFormulario }) {
     return (
       <div data-aos= "fade-up" data-aos-duration="1000" id="form-btn">
         <button  className='btn' onClick={handleClick}>
-          <p className="nome">Quero Saber Mais</p>
+          <p className="nome">Saiba Como</p>
         </button>
       </div>
     )
