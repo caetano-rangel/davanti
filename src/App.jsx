@@ -33,9 +33,9 @@ function App() {
       <div className="imagem-home">
       <img src={logo} className='logo'/>
         <div className="txt-img">
-          <h1 data-aos= "fade-up" data-aos-duration="2000">Descubra o conceito do Luxo Imobiliario</h1>
+          <h1 data-aos= "fade-up" data-aos-duration="2000">Descubra o conceito do Luxo Imobiliário</h1>
           <br></br>
-          <h2 data-aos= "fade-up" data-aos-duration="2000">em Arraial D'Ajuda</h2>
+          <h2 data-aos= "fade-up" data-aos-duration="2000">em Arraial D'Ajuda - BA</h2>
         </div>
         <button data-aos= "fade-up" data-aos-duration="2000" className='btn-app' onClick={scrollToFormulario}>
           <p className="txt-btn-app">Saiba como</p>
