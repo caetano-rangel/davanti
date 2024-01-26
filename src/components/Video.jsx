@@ -3,7 +3,7 @@ import '../styles/components/video.sass'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import video from '../videos/pitinga.mp4'
+import video from '../videos/reserva.mp4'
 
 const Video = () => {
   AOS.init();

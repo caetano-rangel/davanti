@@ -19,8 +19,8 @@ function Contato() {
         <div data-aos= "fade-up" data-aos-duration="2000" className="info">
         <AiFillPhone id="phone-icon" />
             <div>
-              <h3>Telefone</h3>
-              <a className="p" href={whatsappLink} target="_blank" rel="noopener noreferrer">(73) 99848-3936</a>
+              <h3>Whatsapp</h3>
+              <a className="p" href={whatsappLink} target="_blank" rel="noopener noreferrer">+55 (73) 99848-3936</a>
             </div>
         </div>
         <div data-aos= "fade-up" data-aos-duration="2000" className="info">
