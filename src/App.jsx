@@ -13,6 +13,7 @@ import Contato from './components/Contato'
 import Rodape from './components/Rodape'
 import Gradient from './components/Gradient'
 import Titulo from './components/Titulo';
+import Pagina from './components/Pagina';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -41,6 +42,7 @@ function App() {
           <p className="txt-btn-app">Saiba como</p>
         </button>
       </div>
+      <Pagina />
       <Gradient />
       <Titulo />
       <Imoveis />
