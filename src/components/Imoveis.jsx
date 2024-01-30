@@ -17,10 +17,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  { path: image1, name: "Casa Patricia", whatsapp: "73998483936" },
-  { path: image2, name: "Casa Orlando", whatsapp: "73998483936" },
-  { path: image3, name: "Casa Juliana", whatsapp: "73998483936" },
-  { path: image4, name: "Casa Jefferson", whatsapp: "73998483936" },
+  { path: image1, name: "Estrada dos Macacos - Trancoso", whatsapp: "73998483936" },
+  { path: image2, name: "Estrada Arraial Trancoso", whatsapp: "73998483936" },
+  { path: image3, name: "Mirante dos Corais", whatsapp: "73998483936" },
+  { path: image4, name: "Vale Verde - Arraial d'Ajuda", whatsapp: "73998483936" },
   { path: image5, name: "Costa Verde Club", whatsapp: "73998483936" },
   { path: image6, name: "Condomínio Noah", whatsapp: "73998483936" },
   { path: image7, name: "Reserva da Praia", whatsapp: "73998483936" },
