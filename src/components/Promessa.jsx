@@ -20,7 +20,6 @@ function Promessa() {
                     Clique agora para iniciar sua transformação em direção à residência ou terreno dos seus 
                     sonhos e viva a vida que realmente merece.</p>
             </div>
-            {/* <img src="/src/imagens/costa.jpeg" className='img' alt="" /> */}
         </div>
     )
   }
