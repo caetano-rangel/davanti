@@ -10,6 +10,8 @@ import image5 from '../imagens/costa.jpeg';
 import image6 from '../imagens/noah.jpg';
 import image7 from '../imagens/reservapraia.jpg';
 import image8 from '../imagens/vilas.jpg';
+import image9 from '../imagens/nampur.jpeg';
+import image10 from '../imagens/pitinga.jpeg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,6 +25,8 @@ const images = [
   { path: image6, name: "Condomínio Noah", whatsapp: "73998483936" },
   { path: image7, name: "Reserva da Praia", whatsapp: "73998483936" },
   { path: image8, name: "Vilas do Sol", whatsapp: "73998483936" },
+  { path: image9, name: "Nampur Azul", whatsapp: "73998483936" },
+  { path: image10, name: "Residencial Pitinga", whatsapp: "73998483936" },
 ];
 
 function Imoveis() {
