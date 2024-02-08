@@ -37,6 +37,75 @@
     color: #6b6b6b
     font-weight: bold
     text-decoration: underline
+    cursor: pointer
 
-    :hover
-        cursor: pointer
+.gallery-overlay
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+.gallery
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+
+.gallery img
+    width: 140vh
+    height: 70vh
+    object-fit: cover
+
+.btn-gallery
+    width: 50px
+    height: 30px
+    margin: 20px
+    background-color: #051d29
+    color: white
+    border-radius: 50px
+    border: none
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    transition: transform 0.3s ease-in-out
+
+.btn-gallery:hover
+    background-color: #0d3c53
+    cursor: pointer
+    transform: translateY(-5px)
+    box-shadow: 0 9px 12px rgba(0, 0, 0, 0.4)
+
+.btn-gallery:active
+    transform: translateY(0)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    
+.fechar
+    margin-top: 1.5rem
+    width: 15%
+    height: 30px
+    background-color: #051d29
+    color: white
+    border-radius: 4px
+    border: none
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    transition: transform 0.3s ease-in-out
+    text-transform: uppercase
+    letter-spacing: 3px
+
+.fechar:hover
+    background-color: #0d3c53
+    cursor: pointer
+    transform: translateY(-5px)
+    box-shadow: 0 9px 12px rgba(0, 0, 0, 0.4)
+
+.fechar:active
+    transform: translateY(0)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+// Media query para dispositivos móveis
+@media (max-width: 768px)
+    .item
+        min-width: 100% // Alteração para responsivo
+
+    .gallery img
+        width: 100%
+        max-width: none
+        height: auto

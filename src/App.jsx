@@ -22,6 +22,7 @@ import logo from '/src/imagens/logo.png'
 
 
 function App() {
+  
   const formularioRef = useRef();
 
   const scrollToFormulario = () => {
@@ -31,6 +32,7 @@ function App() {
   AOS.init();
   return (
     <div id="site-body">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
       <div className="imagem-home">
       <img src={logo} className='logo'/>
         <div className="txt-img">
