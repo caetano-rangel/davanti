@@ -55,6 +55,7 @@
     width: 140vh
     height: 70vh
     object-fit: cover
+    border-radius: 12px
 
 .btn-gallery
     width: 50px
@@ -116,20 +117,35 @@
         margin-top: 80px
 
     .gallery img
-        width: 45vh
+        width: 47vh
         height: 50vh
         max-height: 60vh
+        object-fit: cover
         border-radius: 12px
 
     .btn-gallery
         position: relative
         display: flex
         align-items: center
-        margin: -90px
+        margin: -70px
         justify-content: center
         top: 10px
-        width: 80px
+        width: 40px
+        height: 40px
+        font-size: 30px
+        color: #dadada
+        background: transparent
+
+    .btn-gallery:hover
+        background-color: transparent
+        cursor: pointer
+        transform: translateY(-5px)
+        box-shadow: 0 9px 12px rgba(0, 0, 0, 0.4)
+
+    .btn-gallery:active
+        transform: translateY(0)
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
     .fechar
-        width: 70%
+        width: 40%
         
