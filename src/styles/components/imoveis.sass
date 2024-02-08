@@ -101,11 +101,31 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
 // Media query para dispositivos móveis
-@media (max-width: 768px)
+@media (max-width: 600px)
     .item
         min-width: 100% // Alteração para responsivo
 
+    .gallery-overlay
+        position: absolute
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
     .gallery img
-        width: 100%
-        max-width: none
-        height: auto
+        width: 42vh
+        height: 45vh
+        border-radius: 12px
+
+    .btn-gallery
+        position: relative
+        margin: -80px
+        display: flex
+        align-items: center
+        justify-content: center
+        top: 240px
+
+    .fechar
+        position: relative
+        width: 90%
+        
