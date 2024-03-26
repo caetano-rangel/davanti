@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 
 function Contato() {
 
-  AOS.init();
   const latitude = -16.491114759982544;
   const longitude = -39.07318924063339;
 
@@ -16,21 +15,21 @@ function Contato() {
 
     return (
       <div id="contato-box">
-        <div data-aos= "fade-up" data-aos-duration="2000" className="info">
+        <div  className="info">
         <AiFillPhone id="phone-icon" />
             <div>
               <h3>Whatsapp</h3>
               <a className="p" href={whatsappLink} target="_blank" rel="noopener noreferrer">+55 (73) 99848-3936</a>
             </div>
         </div>
-        <div data-aos= "fade-up" data-aos-duration="2000" className="info">
+        <div  className="info">
         <AiFillInstagram id='insta-icon'/>
             <div>
               <h3>Instagram</h3>
               <a className="p" href="https://www.instagram.com/remaxdavanti/" >@remaxdavanti</a>
             </div>
         </div>
-        <div data-aos= "fade-up" data-aos-duration="2000" className="info">
+        <div  className="info">
         <AiFillEnvironment id="pin-icon" />
             <div>
               <h3>Localização</h3>
