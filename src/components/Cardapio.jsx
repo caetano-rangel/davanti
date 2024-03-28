@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import imovel1 from '../imagens/patricia/casapatricia.jpg';
 import imovel2 from '../imagens/orlando/casaorlando.jpg';
 import imovel3 from '../imagens/juliana/casajuliana.jpg';
+import imovel4 from '../imagens/sergio/sergio.jpeg';
 
 
 function Cardapio() {
@@ -20,18 +21,19 @@ function Cardapio() {
                     <img src={imovel1}/>
                 </div>
                 <div className="txt-cardapio">
-                    <p>casa estrada dos macacos</p>
-                    <p>3 dormitorios</p>
-                    <p>R$1.200.000,00</p>
+                    <p>estrada dos macacos</p>
+                    <p>15 dormitorios</p>
+                    <p>R$2.990.000,00</p>
                 </div>
             </div>
             <div className="cardapio">
                 <div className="img-cardapio">
-                <img src={imovel2}/>
+                <img src={imovel4}/>
                 </div>
                 <div className="txt-cardapio">
-                    <p>img teste</p>
-                    <p>texto imovel2</p>
+                    <p>Terreno no Eco Vilage</p>
+                    <p>1.126m2</p>
+                    <p>R$480.000,00</p>
                 </div>
             </div>
             <div className="cardapio">
@@ -39,8 +41,9 @@ function Cardapio() {
                 <img src={imovel3}/>
                 </div>
                 <div className="txt-cardapio">
-                    <p>img teste</p>
-                    <p>texto imovel3</p>
+                    <p>corais do arraial</p>
+                    <p>3 dormitorios</p>
+                    <p>R$1.650.000,00</p>
                 </div>
             </div>
         </div>
@@ -51,8 +54,9 @@ function Cardapio() {
                     <img src={imovel1}/>
                 </div>
                 <div className="txt-cardapio">
-                    <p>img teste</p>
-                    <p>texto imovel1</p>
+                    <p>estrada da balsa</p>
+                    <p>3 suítes</p>
+                    <p>R$1.950.000,00</p>
                 </div>
             </div>
             <div className="cardapio">
@@ -60,8 +64,9 @@ function Cardapio() {
                 <img src={imovel2}/>
                 </div>
                 <div className="txt-cardapio">
-                    <p>img teste</p>
-                    <p>texto imovel2</p>
+                    <p>sítio panorama</p>
+                    <p>4 dormitorios</p>
+                    <p>R$1.490.000,00</p>
                 </div>
             </div>
             <div className="cardapio">
