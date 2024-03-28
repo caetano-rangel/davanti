@@ -126,7 +126,9 @@ function Imoveis() {
   };
 
   return (
-    <div data-aos="fade-up" data-aos-duration="2000" className="container">
+    <div data-aos="fade-up" data-aos-duration="2000">
+    <p className="titulo-imoveis">Empreendimentos</p>
+    <div className="container">
       <motion.div ref={carousel} className='carousel' whileTap={{ cursor: "grabbing" }}>
         <motion.div
           className='inner'
@@ -161,6 +163,7 @@ function Imoveis() {
           <button className='fechar' onClick={closeGallery}>Fechar</button>
         </div>
       )}
+    </div>
     </div>
   );
 }
