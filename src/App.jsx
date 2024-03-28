@@ -14,6 +14,7 @@ import Rodape from './components/Rodape'
 import Gradient from './components/Gradient'
 import Titulo from './components/Titulo';
 import Pagina from './components/Pagina';
+import Cardapio from './components/Cardapio';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -48,6 +49,7 @@ function App() {
       <Gradient />
       <Titulo />
       <Imoveis />
+      <Cardapio />
       <FormBtn scrollToFormulario={scrollToFormulario}/>
       {/* <Grafico /> */}
       <Video />

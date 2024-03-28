@@ -3,24 +3,13 @@ import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 
 //carrosel
-import image1 from '../imagens/patricia/casapatricia.jpg';
-import image2 from '../imagens/orlando/casaorlando.jpg';
-import image3 from '../imagens/juliana/casajuliana.jpg';
-import image4 from '../imagens/casajefferson.jpg';
-import image5 from '../imagens/empreendimentos/costa.jpeg';
-import image6 from '../imagens/empreendimentos/noah.jpg';
-import image7 from '../imagens/empreendimentos/reservapraia.jpg';
-import image8 from '../imagens/empreendimentos/vilas.jpg';
-import image9 from '../imagens/empreendimentos/nampur.jpeg';
-import image10 from '../imagens/empreendimentos/pitinga.jpeg';
-import image11 from '../imagens/empreendimentos/pousadaju/pousadajuliana.jpeg';
-
-import mirante1 from '../imagens/juliana/mirante1.jpeg';
-import mirante2 from '../imagens/juliana/mirante2.jpeg';
-import mirante3 from '../imagens/juliana/mirante3.jpeg';
-import mirante4 from '../imagens/juliana/mirante4.jpeg';
-import mirante5 from '../imagens/juliana/mirante5.jpeg';
-import mirante6 from '../imagens/juliana/mirante6.jpeg';
+import image1 from '../imagens/casajefferson.jpg';
+import image2 from '../imagens/empreendimentos/costa.jpeg';
+import image3 from '../imagens/empreendimentos/noah.jpg';
+import image4 from '../imagens/empreendimentos/reservapraia.jpg';
+import image5 from '../imagens/empreendimentos/vilas.jpg';
+import image6 from '../imagens/empreendimentos/nampur.jpeg';
+import image7 from '../imagens/empreendimentos/pitinga.jpeg';
 
 import jefferson1 from '../imagens/jefferson/jefferson1.jpeg';
 import jefferson2 from '../imagens/jefferson/jefferson2.jpeg';
@@ -83,33 +72,20 @@ import pitinga8 from '../imagens/empreendimentos/pitinga/pitinga8.jpeg';
 import pitinga9 from '../imagens/empreendimentos/pitinga/pitinga9.jpeg';
 import pitinga10 from '../imagens/empreendimentos/pitinga/pitinga10.jpeg';
 
-import pousada1 from '../imagens/empreendimentos/pousadaju/pousada1.jpeg';
-import pousada2 from '../imagens/empreendimentos/pousadaju/pousada2.jpeg';
-import pousada3 from '../imagens/empreendimentos/pousadaju/pousada3.jpeg';
-import pousada4 from '../imagens/empreendimentos/pousadaju/pousada4.jpeg';
-import pousada5 from '../imagens/empreendimentos/pousadaju/pousada5.jpeg';
-import pousada6 from '../imagens/empreendimentos/pousadaju/pousada6.jpeg';
-import pousada7 from '../imagens/empreendimentos/pousadaju/pousada7.jpeg';
-import pousada8 from '../imagens/empreendimentos/pousadaju/pousada8.jpeg';
-
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  { path: image1, name: "Estrada dos Macacos - Trancoso", whatsapp: "73998483936", gallery: [image6, image5, image8, image5, image6, image8, image6, image6], },
-  { path: image2, name: "Estrada Arraial Trancoso", whatsapp: "73998483936", gallery: [image6, image5, image8, image5, image6, image8, image6, image6], },
-  { path: image3, name: "Mirante dos Corais", whatsapp: "73998483936", gallery: [mirante1, mirante2, mirante3, mirante4, mirante5, mirante6], },
-  { path: image4, name: "Vale Verde - Arraial d'Ajuda", whatsapp: "73998483936", gallery: [jefferson1, jefferson2, jefferson3, jefferson4, jefferson5, jefferson6, jefferson7, jefferson8, jefferson9], link:"https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/porto-seguro/01-estrada-arraial-trancoso-na-chegada-de-vale-verde/580581021-6", },
-  { path: image5, name: "Costa Verde Club", whatsapp: "73998483936", gallery: [costa1, costa2, costa3, costa4, costa5, costa6, costa7, costa8], },
-  { path: image6, name: "Condomínio Noah", whatsapp: "73998483936", gallery: [noah1, noah2, noah3, noah4, noah5, noah6, noah7, noah8, noah9, noah10], },
-  { path: image7, name: "Reserva da Praia", whatsapp: "73998483936", gallery: [reserva1, reserva2, reserva3, reserva4, reserva5, reserva6, reserva7, reserva8, reserva9], },
-  { path: image8, name: "Vilas do Sol", whatsapp: "73998483936", gallery: [sol1, sol2, sol3, sol4, sol5, sol6, sol7, sol8, sol9], },
-  { path: image9, name: "Nampur Azul", whatsapp: "73998483936",},
-  { path: image10, name: "Residencial Pitinga", whatsapp: "73998483936", gallery: [pitinga1, pitinga2, pitinga3, pitinga4, pitinga5, pitinga6, pitinga7, pitinga8, pitinga9, pitinga10], },
-  { path: image11, name: "pousada", whatsapp: "73998483936", gallery: [pousada1, pousada2, pousada3, pousada4, pousada5, pousada6, pousada7, pousada8], },
-
+  { path: image7, name: "Residencial Pitinga", whatsapp: "73998483936", gallery: [pitinga1, pitinga2, pitinga3, pitinga4, pitinga5, pitinga6, pitinga7, pitinga8, pitinga9, pitinga10], },
+  { path: image6, name: "Nampur Azul", whatsapp: "73998483936",},
+  { path: image5, name: "Vilas do Sol", whatsapp: "73998483936", gallery: [sol1, sol2, sol3, sol4, sol5, sol6, sol7, sol8, sol9], },
+  { path: image3, name: "Condomínio Noah", whatsapp: "73998483936", gallery: [noah1, noah2, noah3, noah4, noah5, noah6, noah7, noah8, noah9, noah10], },
+  { path: image2, name: "Costa Verde Club", whatsapp: "73998483936", gallery: [costa1, costa2, costa3, costa4, costa5, costa6, costa7, costa8], },
+  { path: image4, name: "Reserva da Praia", whatsapp: "73998483936", gallery: [reserva1, reserva2, reserva3, reserva4, reserva5, reserva6, reserva7, reserva8, reserva9], },
+  { path: image1, name: "Vale Verde - Arraial d'Ajuda", whatsapp: "73998483936", gallery: [jefferson1, jefferson2, jefferson3, jefferson4, jefferson5, jefferson6, jefferson7, jefferson8, jefferson9], link:"https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/porto-seguro/01-estrada-arraial-trancoso-na-chegada-de-vale-verde/580581021-6", },
+  
 ];
 
 function Imoveis() {
