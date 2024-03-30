@@ -105,6 +105,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 
 .titulo-imoveis
+    width: 100%
     display: flex
     margin-top: 6rem
     align-items: center
@@ -118,9 +119,13 @@
 
 // Media query para dispositivos móveis
 @media (max-width: 600px)
-    .item
-        max-width: 100% // Alteração para responsivo
+    .container 
+        max-width: 100vw// Altere isso para 100vw
 
+    .item 
+        min-width: 100% // Altere isso para 100%
+        padding: 25px 
+    
     .gallery-overlay
         position: absolute
         display: flex

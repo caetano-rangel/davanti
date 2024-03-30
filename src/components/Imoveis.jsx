@@ -3,23 +3,12 @@ import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 
 //carrosel
-import image1 from '../imagens/casajefferson.jpg';
 import image2 from '../imagens/empreendimentos/costa.jpeg';
 import image3 from '../imagens/empreendimentos/noah.jpg';
 import image4 from '../imagens/empreendimentos/reservapraia.jpg';
 import image5 from '../imagens/empreendimentos/vilas.jpg';
 import image6 from '../imagens/empreendimentos/nampur.jpeg';
 import image7 from '../imagens/empreendimentos/pitinga.jpeg';
-
-import jefferson1 from '../imagens/jefferson/jefferson1.jpeg';
-import jefferson2 from '../imagens/jefferson/jefferson2.jpeg';
-import jefferson3 from '../imagens/jefferson/jefferson3.jpeg';
-import jefferson4 from '../imagens/jefferson/jefferson4.jpeg';
-import jefferson5 from '../imagens/jefferson/jefferson5.jpeg';
-import jefferson6 from '../imagens/jefferson/jefferson6.jpeg';
-import jefferson7 from '../imagens/jefferson/jefferson7.jpeg';
-import jefferson8 from '../imagens/jefferson/jefferson8.jpeg';
-import jefferson9 from '../imagens/jefferson/jefferson9.jpeg';
 
 import costa1 from '../imagens/empreendimentos/costa/costa1.jpeg';
 import costa2 from '../imagens/empreendimentos/costa/costa2.jpeg';
@@ -84,7 +73,6 @@ const images = [
   { path: image3, name: "Condomínio Noah", whatsapp: "73998483936", gallery: [noah1, noah2, noah3, noah4, noah5, noah6, noah7, noah8, noah9, noah10], },
   { path: image2, name: "Costa Verde Club", whatsapp: "73998483936", gallery: [costa1, costa2, costa3, costa4, costa5, costa6, costa7, costa8], },
   { path: image4, name: "Reserva da Praia", whatsapp: "73998483936", gallery: [reserva1, reserva2, reserva3, reserva4, reserva5, reserva6, reserva7, reserva8, reserva9], },
-  { path: image1, name: "Vale Verde - Arraial d'Ajuda", whatsapp: "73998483936", gallery: [jefferson1, jefferson2, jefferson3, jefferson4, jefferson5, jefferson6, jefferson7, jefferson8, jefferson9], link:"https://www.remax.com.br/pt-br/imoveis/chacara/-sitio/-fazenda/venda/porto-seguro/01-estrada-arraial-trancoso-na-chegada-de-vale-verde/580581021-6", },
   
 ];
 
