@@ -128,10 +128,9 @@ function Imoveis() {
               className='item'
               key={path}
               style={{ maxHeight: '340px' }}
-              onClick={() => openGallery(index)}
             >
               <img src={path} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              <p className='nome-img' onClick={() => handleNameClick(whatsapp, link)}>{name}</p>
+              <p className='nome-img' onClick={() => openGallery(index)}>{name}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -149,6 +148,9 @@ function Imoveis() {
             </button>
           </div>
           <button className='fechar' onClick={closeGallery}>Fechar</button>
+          <button className="whats-btn" onClick={() => handleNameClick(images[currentImageIndex].whatsapp, images[currentImageIndex].name)}>
+            WhatsApp
+          </button>
         </div>
       )}
     </div>
