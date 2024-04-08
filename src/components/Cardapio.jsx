@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import imovel1 from '../imagens/patricia/casapatricia.jpg';
-import imovel2 from '../imagens/orlando/casaorlando.jpg';
+import imovel2 from '../imagens/orlando/casaorlando.jpeg';
 import imovel3 from '../imagens/juliana/casajuliana.jpg';
 import imovel4 from '../imagens/sergio/sergio.jpeg';
 import imovel5 from '../imagens/jefferson/jefferson2.jpeg';
@@ -23,7 +23,7 @@ function Cardapio() {
     <div data-aos="fade-up" data-aos-duration="1000">
       <h1 className='titulo-card'>Casas e Áreas</h1>
       <div id="cardapio-box">
-        <div className="cardapio" onClick={() => handleWhatsAppClick('Estrada dos Macacos')}>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/hotel/venda/porto-seguro/1-estrada-dos-macacos-proximo-ao-cemei/580581003-7')}>
           <div className="img-cardapio">
             <img src={imovel1} alt="Imóvel 1"/>
           </div>
@@ -33,7 +33,7 @@ function Cardapio() {
             <p>R$2.990.000,00</p>
           </div>
         </div>
-        <div className="cardapio" onClick={() => handleWhatsAppClick('Terreno no Eco Vilage')}>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/terreno/venda/porto-seguro/qb-18-condominio-eco-village-estrada-arraia-trancoso/580581024-6')}>
           <div className="img-cardapio">
             <img src={imovel4} alt="Imóvel 4"/>
           </div>
@@ -43,7 +43,7 @@ function Cardapio() {
             <p>R$480.000,00</p>
           </div>
         </div>
-        <div className="cardapio" onClick={() => handleWhatsAppClick('Corais do Arraial')}>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/casa/venda/porto-seguro/trilha-ecologica/580581006-31')}>
           <div className="img-cardapio">
             <img src={imovel3} alt="Imóvel 3"/>
           </div>
@@ -56,17 +56,17 @@ function Cardapio() {
       </div>
       <div className="space">.</div>
       <div id="cardapio-box">
-        <div className="cardapio" onClick={() => handleWhatsAppClick('Estrada da Balsa')}>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/hotel/venda/porto-seguro/01-rua-das-palmeiras-delegacia-e-corpo-de-bombeiro/580581002-63')}>
           <div className="img-cardapio">
             <img src={imovel2} alt="Imóvel 2"/>
           </div>
           <div className="txt-cardapio">
-            <p>Estrada da Balsa</p>
-            <p>3 suítes</p>
-            <p>R$1.950.000,00</p>
+            <p>São Francisco</p>
+            <p>15 suítes</p>
+            <p>R$5.405.000,00</p>
           </div>
         </div>
-        <div className="cardapio" onClick={() => handleWhatsAppClick('Sítio Panorama')}>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/casa/venda/porto-seguro/40-alameda-fernando-verissimo-vasconcelos-sitio-panorama/580581023-11')}>
           <div className="img-cardapio">
             <img src={imovel6} alt="Imóvel 6"/>
           </div>
