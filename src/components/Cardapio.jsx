@@ -9,6 +9,9 @@ import imovel3 from '../imagens/juliana/casajuliana.jpg';
 import imovel4 from '../imagens/sergio/sergio.jpeg';
 import imovel5 from '../imagens/jefferson/jefferson2.jpeg';
 import imovel6 from '../imagens/beth/beth.jpeg';
+import imovel7 from '../imagens/orlando/corais.jpeg';
+import imovel8 from '../imagens/orlando/mirante.jpeg';
+import imovel9 from '../imagens/orlando/trancoso.jpeg';
 
 function Cardapio() {
   AOS.init();
@@ -84,6 +87,39 @@ function Cardapio() {
             <p>Sítio Bela Vista</p>
             <p>4 dormitórios</p>
             <p>R$2.500.000,00</p>
+          </div>
+        </div>
+      </div>
+      <div className="space">.</div>
+      <div id="cardapio-box">
+        <div className="cardapio" onClick={() => handleWhatsAppClick('')}>
+          <div className="img-cardapio">
+            <img src={imovel7} alt="Imóvel 7"/>
+          </div>
+          <div className="txt-cardapio">
+            <p>Rua do Mirante</p>
+            <p>3 suítes</p>
+            <p>R$2.200.000,00</p>
+          </div>
+        </div>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/casa/venda/porto-seguro/05-corais-do-arraial-rua-do-mirante/580581002-72')}>
+          <div className="img-cardapio">
+            <img src={imovel8} alt="Imóvel 8"/>
+          </div>
+          <div className="txt-cardapio">
+            <p>Corais do Arraial</p>
+            <p>5 dormitórios</p>
+            <p>R$2.500.000,00</p>
+          </div>
+        </div>
+        <div className="cardapio" onClick={() => handleWhatsAppClick('https://www.remax.com.br/pt-br/imoveis/casa/venda/porto-seguro/05-trancoso-estrada-dos-macacos/580581002-59')}>
+          <div className="img-cardapio">
+            <img src={imovel9} alt="Imóvel 9"/>
+          </div>
+          <div className="txt-cardapio">
+            <p>Trancoso</p>
+            <p>3 suítes</p>
+            <p>R$2.350.000,00</p>
           </div>
         </div>
       </div>

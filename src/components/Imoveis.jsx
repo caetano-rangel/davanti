@@ -3,12 +3,13 @@ import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 
 //carrosel
-import image2 from '../imagens/empreendimentos/costa.jpeg';
-import image3 from '../imagens/empreendimentos/noah.jpg';
-import image4 from '../imagens/empreendimentos/reservapraia.jpg';
-import image5 from '../imagens/empreendimentos/vilas.jpg';
-import image6 from '../imagens/empreendimentos/nampur.jpeg';
-import image7 from '../imagens/empreendimentos/pitinga.jpeg';
+import image5 from '../imagens/empreendimentos/costa.jpeg';
+import image4 from '../imagens/empreendimentos/noah.jpg';
+import image6 from '../imagens/empreendimentos/reservapraia.jpg';
+import image3 from '../imagens/empreendimentos/vilas.jpg';
+import image2 from '../imagens/empreendimentos/nampur.jpeg';
+import image1 from '../imagens/empreendimentos/pitinga.jpeg';
+import image7 from '../imagens/empreendimentos/solaris.jpg';
 
 import costa1 from '../imagens/empreendimentos/costa/costa1.jpeg';
 import costa2 from '../imagens/empreendimentos/costa/costa2.jpeg';
@@ -61,19 +62,34 @@ import pitinga8 from '../imagens/empreendimentos/pitinga/pitinga8.jpeg';
 import pitinga9 from '../imagens/empreendimentos/pitinga/pitinga9.jpeg';
 import pitinga10 from '../imagens/empreendimentos/pitinga/pitinga10.jpeg';
 
+import solaris1 from '../imagens/empreendimentos/solaris/solaris1.jpg';
+import solaris2 from '../imagens/empreendimentos/solaris/solaris2.jpg';
+import solaris3 from '../imagens/empreendimentos/solaris/solaris3.jpg';
+import solaris4 from '../imagens/empreendimentos/solaris/solaris4.jpg';
+import solaris5 from '../imagens/empreendimentos/solaris/solaris5.jpg';
+import solaris6 from '../imagens/empreendimentos/solaris/solaris6.jpg';
+import solaris7 from '../imagens/empreendimentos/solaris/solaris7.jpg';
+import solaris8 from '../imagens/empreendimentos/solaris/solaris8.jpg';
+
+import nampur1 from '../imagens/empreendimentos/nampur/nampur1.jpeg';
+import nampur2 from '../imagens/empreendimentos/nampur/nampur2.jpeg';
+import nampur3 from '../imagens/empreendimentos/nampur/nampur3.jpeg';
+import nampur4 from '../imagens/empreendimentos/nampur/nampur4.jpeg';
+import nampur5 from '../imagens/empreendimentos/nampur/nampur5.jpeg';
+import nampur6 from '../imagens/empreendimentos/nampur/nampur6.jpeg';
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  { path: image7, name: "Residencial Pitinga", whatsapp: "73998483936", gallery: [pitinga1, pitinga2, pitinga3, pitinga4, pitinga5, pitinga6, pitinga7, pitinga8, pitinga9, pitinga10], },
-  { path: image6, name: "Nampur Azul", whatsapp: "73998483936",},
-  { path: image5, name: "Vilas do Sol", whatsapp: "73998483936", gallery: [sol1, sol2, sol3, sol4, sol5, sol6, sol7, sol8, sol9], },
-  { path: image3, name: "Condomínio Noah", whatsapp: "73998483936", gallery: [noah1, noah2, noah3, noah4, noah5, noah6, noah7, noah8, noah9, noah10], },
-  { path: image2, name: "Costa Verde Club", whatsapp: "73998483936", gallery: [costa1, costa2, costa3, costa4, costa5, costa6, costa7, costa8], },
-  { path: image4, name: "Reserva da Praia", whatsapp: "73998483936", gallery: [reserva1, reserva2, reserva3, reserva4, reserva5, reserva6, reserva7, reserva8, reserva9], },
-  
+  { path: image1, name: "Residencial Pitinga", whatsapp: "73998483936", gallery: [pitinga1, pitinga2, pitinga3, pitinga4, pitinga5, pitinga6, pitinga7, pitinga8, pitinga9, pitinga10] },
+  { path: image2, name: "Nampur Azul", whatsapp: "73998483936", gallery: [nampur1, nampur2, nampur3, nampur4, nampur5, nampur6] },
+  { path: image3, name: "Vilas do Sol", whatsapp: "73998483936", gallery: [sol1, sol2, sol3, sol4, sol5, sol6, sol7, sol8, sol9] },
+  { path: image4, name: "Condomínio Noah", whatsapp: "73998483936", gallery: [noah1, noah2, noah3, noah4, noah5, noah6, noah7, noah8, noah9, noah10] },
+  { path: image5, name: "Costa Verde Club", whatsapp: "73998483936", gallery: [costa1, costa2, costa3, costa4, costa5, costa6, costa7, costa8] },
+  { path: image6, name: "Reserva da Praia", whatsapp: "73998483936", gallery: [reserva1, reserva2, reserva3, reserva4, reserva5, reserva6, reserva7, reserva8, reserva9] },
+  { path: image7, name: "Solaris", whatsapp: "73998483936", gallery: [solaris1, solaris2, solaris3, solaris4, solaris5, solaris6, solaris7, solaris8] },
 ];
 
 function Imoveis() {
